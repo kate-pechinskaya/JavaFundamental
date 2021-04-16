@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 public class ArraysOfArrays2 {
     /*2.	Дана квадратная матрица.
      Вывести на экран элементы, стоящие на диагонали. */

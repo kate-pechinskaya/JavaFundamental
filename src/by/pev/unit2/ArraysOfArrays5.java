@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 public class ArraysOfArrays5 {
     /*5.	Сформировать квадратную матрицу порядка
     n по заданному образцу(n - четное):

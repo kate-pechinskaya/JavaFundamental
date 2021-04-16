@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 public class ArraysOfArrays1 {
     /*1.	Дана матрица. Вывести на экран все нечетные столбцы,
      у которых первый элемент больше последнего. */
@@ -34,7 +35,6 @@ public class ArraysOfArrays1 {
             for (int j = 0; j < 5; j++) {
                 if ((j) % 2 == 0 && (matrix[0][j] > matrix[2][j])) {
                     System.out.print(matrix[i][j] + " ");
-
                 }
             }
             System.out.println();

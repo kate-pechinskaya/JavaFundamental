@@ -12,19 +12,15 @@ public class CycleProgram8 {
         String b = reader.readLine();
         int a_1 = Integer.parseInt(a);
         int b_1 = Integer.parseInt(b);
-        String countA = " ";
-        String countB = " ";
+        String result = " ";
         for (int i = 1; i <= a.length(); i++) {
-        }
-        System.out.println(a + " :" + countA);
-        for (int i = 1; i <= b.length(); i++) {
             for (int j = 0; j <= 9; j++) {
-                if (j == (b_1 % Math.pow(10, i))) {
-                    countB += j;
+                if (j == (a_1 % Math.pow(10, i))) {
+                    result += j;
                 }
             }
         }
-        System.out.println(b + " :" + countB);
+        System.out.println("result: " + result);
     }
 }
 

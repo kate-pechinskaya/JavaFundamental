@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 public class ArraysOfArrays6 {
     /*6.	Сформировать квадратную матрицу порядка
      n по заданному образцу(n - четное):
@@ -13,7 +14,6 @@ public class ArraysOfArrays6 {
       */
     public static void main(String[] args) {
         int[][] arr = new int[5][5];
-
         for (int i = 0; i < arr.length / 2 + 1; i++) {
             for (int j = i; j < arr.length - i; j++) {
                 arr[i][j] = 1;

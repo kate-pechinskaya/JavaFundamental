@@ -1,10 +1,9 @@
 package by.pev.unit2;
+
 public class ArraysOfArrays3 {
     /*3.	Дана матрица. Вывести k-ю строку и p-й столбец матрицы.*/
 
     public static int[][] createMatrix() {
-        int k = 2;
-        int p = 1;
         int[][] matrix = new int[3][3];
         matrix[0][0] = 1;
         matrix[0][1] = -2;
@@ -32,7 +31,6 @@ public class ArraysOfArrays3 {
             if (i == k)
                 for (int j = 0; j < 3; j++) {
                     System.out.print(matrix[i][j] + "\t");
-                    ;
                 }
         }
         System.out.println();
@@ -44,12 +42,10 @@ public class ArraysOfArrays3 {
                 }
             }
         }
-
         return matrix;
     }
 
     public static void main(String[] args) {
-
         print(createMatrix());
         System.out.println();
         printKStringAndPColumn(1, 2, createMatrix());

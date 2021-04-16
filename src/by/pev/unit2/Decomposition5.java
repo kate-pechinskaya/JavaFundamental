@@ -30,7 +30,6 @@ public class Decomposition5 {
             if (array[i] > nearMax)
                 nearMax = array[i];
         }
-
         return nearMax;
     }
 

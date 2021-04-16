@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 import java.util.Arrays;
 
 public class ArraysSort2 {
@@ -9,10 +10,10 @@ public class ArraysSort2 {
         int[] a = new int[]{1, 2, 3, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 9};
         int[] b = new int[]{7, 9, 9, 10, 10, 14, 14, 15};
         for (int i = 0; i < b.length; i++) {
-            a[i] = a[i] + b[i] ;
+            a[i] = a[i] + b[i];
         }
         for (int i = b.length; i < a.length; i++) {
-            a[i]= a[i] + b[b.length - 1];
+            a[i] = a[i] + b[b.length - 1];
         }
         System.out.println(Arrays.toString(a));
     }

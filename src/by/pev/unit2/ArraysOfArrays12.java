@@ -15,7 +15,6 @@ public class ArraysOfArrays12 {
         int temp;
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < descending.length - 1; j++) {
-
                 if (descending[i][j] < descending[i][j + 1]) {
                     temp = descending[i][j + 1];
                     descending[i][j + 1] = descending[i][j];
@@ -30,7 +29,6 @@ public class ArraysOfArrays12 {
 
     public static int[][] ascending() {//по возрастанию
         int[][] ascending = matrix();
-
         for (int i = 0; i < ascending.length; i++) {
             for (int j = 0; j < 2; j++) {
                 int temp;
@@ -47,7 +45,6 @@ public class ArraysOfArrays12 {
     }
 
     public static void main(String[] args) {
-
         System.out.println("Исходная матрица" + Arrays.deepToString(matrix()));
         System.out.println("матрица по убыванию");
         descending();

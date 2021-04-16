@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 import java.util.Arrays;
 
 public class Arrays10 {
@@ -7,9 +8,9 @@ public class Arrays10 {
       (освободившиеся элементы заполнить нулями). Примечание.
        Дополнительный массив не использовать. */
     public static void main(String[] args) {
-        int[] array = new int[]{ 2, 4, 5, 6,7 ,3, 6, 3, 5, 2};
+        int[] array = new int[]{2, 4, 5, 6, 7, 3, 6, 3, 5, 2};
         for (int i = 0; i < array.length; i++) {
-            if(i%2 != 0 ) array[i] = 0;
+            if (i % 2 != 0) array[i] = 0;
         }
         System.out.println(Arrays.toString(array));
     }

@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 public class ArraysOfArrays10 {
     /*10. Найти положительные элементы главной диагонали квадратной матрицы. */
     public static void main(String[] args) {

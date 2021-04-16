@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 public class Decomposition11 {
     /*11.	Написать метод(методы), определяющий,
      в каком из данных двух чисел больше цифр. */
@@ -9,7 +10,6 @@ public class Decomposition11 {
             System.out.println("в первом числе " + a + " больше цифр, чем во втором " + b);
         else if (bb.length() > aa.length())
             System.out.println("во втором числе " + b + " больше цифр чем в первом " + a);
-
     }
 
     public static void main(String[] args) {

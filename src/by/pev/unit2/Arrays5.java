@@ -1,4 +1,5 @@
 package by.pev.unit2;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,12 +15,12 @@ public class Arrays5 {
             array[i] = ((int) (Math.random() * 30));
         }
         for (int i = 0; i < array.length; i++) {
-            if(array[i] < i)
+            if (array[i] < i)
                 list.remove(i);
         }
         array = list.toArray(new Integer[list.size()]);
         System.out.println(Arrays.toString(array));
-        }
+    }
 
 
 }

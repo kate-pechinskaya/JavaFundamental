@@ -11,7 +11,6 @@ public class Decomposition12 {
      массива А, элементами которого являются числа,
      сумма цифр которых равна К и которые не большее N. */
     public static List array() throws IOException {
-
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int k = Integer.parseInt(reader.readLine());
         List a = new ArrayList();
@@ -28,8 +27,8 @@ public class Decomposition12 {
                     m += 2;
                 }
             } else if (n < k) {
-                    k /= n;
-                    a.add(n);
+                k /= n;
+                a.add(n);
             }
         }
         return a;
