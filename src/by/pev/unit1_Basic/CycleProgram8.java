@@ -8,19 +8,22 @@ public class CycleProgram8 {
     /* 8. Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.*/
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String a = reader.readLine();
-        String b = reader.readLine();
-        int a_1 = Integer.parseInt(a);
-        int b_1 = Integer.parseInt(b);
-        String result = " ";
-        for (int i = 1; i <= a.length(); i++) {
-            for (int j = 0; j <= 9; j++) {
-                if (j == (a_1 % Math.pow(10, i))) {
-                    result += j;
-                }
-            }
+        int a = Integer.parseInt(reader.readLine());
+        int b = Integer.parseInt(reader.readLine());
+        int[] result = new int[10];
+        while(a!=0) {
+            result[a%10] = 1;
+            a = a/10;
         }
-        System.out.println("result: " + result);
+        while(b!=0) {
+            int d = b%10;
+            result[d] = result[d] | 2;
+            b = b/10;
+        }
+        System.out.println("general figures: ");
+        for (int d = 0; d < 10; d++) {
+            if(result[d]==3) System.out.print(d + "  ");
+        }
     }
 }
 
