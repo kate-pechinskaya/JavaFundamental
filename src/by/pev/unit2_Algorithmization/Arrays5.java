@@ -9,18 +9,14 @@ public class Arrays5 {
      Вывести на печать только те числа, для которых аi > i. */
     public static void main(String[] args) {
         Integer[] array = new Integer[10];
-        List<Integer> list = new ArrayList<>(Arrays.asList(array));
         //заполнние массива
         for (int i = 0; i < array.length; i++) {
-            array[i] = ((int) (Math.random() * 30));
+            array[i] = ((int) (Math.random() * 10));
         }
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < i)
-                list.remove(i);
-        }
-        array = list.toArray(new Integer[list.size()]);
         System.out.println(Arrays.toString(array));
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > i)
+                System.out.println(array[i]);;
+        }
     }
-
-
 }
