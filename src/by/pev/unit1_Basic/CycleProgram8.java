@@ -11,18 +11,18 @@ public class CycleProgram8 {
         int a = Integer.parseInt(reader.readLine());
         int b = Integer.parseInt(reader.readLine());
         int[] result = new int[10];
-        while(a!=0) {
-            result[a%10] = 1;
-            a = a/10;
+        while (a != 0) {
+            result[a % 10] = 1;
+            a = a / 10;
         }
-        while(b!=0) {
-            int d = b%10;
+        while (b != 0) {
+            int d = b % 10;
             result[d] = result[d] | 2;
-            b = b/10;
+            b = b / 10;
         }
         System.out.println("general figures: ");
         for (int d = 0; d < 10; d++) {
-            if(result[d]==3) System.out.print(d + "  ");
+            if (result[d] == 3) System.out.print(d + "  ");
         }
     }
 }

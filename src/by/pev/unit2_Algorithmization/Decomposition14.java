@@ -38,4 +38,3 @@ public class Decomposition14 {
         armstrong();
     }
 }
-//есть второй вариант решения, надо подумать
