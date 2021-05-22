@@ -14,7 +14,7 @@ public class ArraysOfArrays11 {
                     count++;
                 }
                 if (count >= 3) {
-                    System.out.println("Строка :" + i);
+                    System.out.println("Строка : " + i);
                     break;
                 }
             }

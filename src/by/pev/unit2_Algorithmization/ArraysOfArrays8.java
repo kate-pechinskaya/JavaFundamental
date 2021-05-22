@@ -9,6 +9,7 @@ public class ArraysOfArrays8 {
      т. е. все элементы одного столбца поставить на соответствующие
      им позиции другого, а его элементы второго переместить в первый.
       Номера столбцов вводит пользователь с клавиатуры. */
+
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int oneColumn = Integer.parseInt(reader.readLine());

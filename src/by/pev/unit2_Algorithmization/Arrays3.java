@@ -14,12 +14,12 @@ public class Arrays3 {
         int countMinus = 0;
         int countPlus = 0;
         int countZero = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < 0)
+        for (int j : array) {
+            if (j < 0)
                 countMinus++;
-            if (array[i] > 0)
+            if (j > 0)
                 countPlus++;
-            if (array[i] == 0)
+            if (j == 0)
                 countZero++;
         }
         System.out.println("кол-во отрицательных элементов: " + countMinus);

@@ -3,6 +3,13 @@ package by.pev.unit2_Algorithmization;
 public class ArraysOfArrays3 {
     /*3.	Дана матрица. Вывести k-ю строку и p-й столбец матрицы.*/
 
+    public static void main(String[] args) {
+        int[][] matrix = createMatrix();
+        print(matrix);
+        System.out.println();
+        printKStringAndPColumn(1, 2, matrix);
+    }
+
     public static int[][] createMatrix() {
         int[][] matrix = new int[3][3];
         matrix[0][0] = 1;
@@ -43,11 +50,5 @@ public class ArraysOfArrays3 {
             }
         }
         return matrix;
-    }
-
-    public static void main(String[] args) {
-        print(createMatrix());
-        System.out.println();
-        printKStringAndPColumn(1, 2, createMatrix());
     }
 }

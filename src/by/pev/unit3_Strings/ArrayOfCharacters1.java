@@ -4,6 +4,7 @@ public class ArrayOfCharacters1 {
     /*
     1.	Дан массив названий переменных в camelCase. Преобразовать названия в snake_case.
      */
+
     public static void changer(String a) {
         String regex = "([A-Z][a-z]+)";
         String replacement = "$1_";

@@ -5,13 +5,21 @@ import java.util.Arrays;
 public class ArraysOfArrays12 {
     /*12.	Отсортировать строки матрицы по возрастанию
      и убыванию значений элементов. */
-    public static int[][] matrix() {
-        int[][] a = new int[][]{{2, 3, 1}, {5, -1, 4}, {3, 4, -1}};
-        return a;
+
+    public static void main(String[] args) {
+        System.out.println("Исходная матрица" + Arrays.deepToString(getMatrix()));
+        System.out.println("матрица по убыванию");
+        descending();
+        System.out.println("матрица по возрастанию");
+        ascending();
+    }
+
+    public static int[][] getMatrix() {
+        return new int[][]{{2, 3, 1}, {5, -1, 4}, {3, 4, -1}};
     }
 
     public static int[][] descending() {//по убыванию
-        int[][] descending = matrix();
+        int[][] descending = getMatrix();
         int temp;
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < descending.length - 1; j++) {
@@ -28,7 +36,7 @@ public class ArraysOfArrays12 {
     }
 
     public static int[][] ascending() {//по возрастанию
-        int[][] ascending = matrix();
+        int[][] ascending = getMatrix();
         for (int i = 0; i < ascending.length; i++) {
             for (int j = 0; j < 2; j++) {
                 int temp;
@@ -44,12 +52,6 @@ public class ArraysOfArrays12 {
         return ascending;
     }
 
-    public static void main(String[] args) {
-        System.out.println("Исходная матрица" + Arrays.deepToString(matrix()));
-        System.out.println("матрица по убыванию");
-        descending();
-        System.out.println("матрица по возрастанию");
-        ascending();
-    }
+
 }
 //ошибка в размерности массива и сортировке

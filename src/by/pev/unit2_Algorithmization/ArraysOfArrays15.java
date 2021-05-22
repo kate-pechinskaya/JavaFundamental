@@ -3,6 +3,7 @@ package by.pev.unit2_Algorithmization;
 public class ArraysOfArrays15 {
     /*15.	Найдите наибольший элемент матрицы и
     заменить все нечетные элементы на него. */
+
     public static void main(String[] args) {
         int[][] a = new int[5][5];
         int max = a[0][0];

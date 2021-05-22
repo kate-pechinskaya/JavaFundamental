@@ -11,8 +11,12 @@ public class ArraysOfArrays5 {
       .   .     . ... .  .  .
       .   .     . ... .  .  .
      n-1  n-1   0 ... 0  0  0
-      n    0    0 ... 0  0  0
-             */
+      n    0    0 ... 0  0  0   */
+
+    public static void main(String[] args) {
+        createMatrix();
+    }
+
     public static int[][] createMatrix() {
         int[][] matrix = new int[5][5];
         int n = 0;
@@ -33,9 +37,5 @@ public class ArraysOfArrays5 {
             System.out.println();
         }
         return matrix;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(createMatrix());
     }
 }

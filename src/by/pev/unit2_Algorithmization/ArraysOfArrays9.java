@@ -16,7 +16,7 @@ public class ArraysOfArrays9 {
                     countZeroColumn += a[i][j];
                 } else if (j == 1) {
                     countOneColumn += a[i][j];
-                } else if (j == 2) {
+                } else {
                     countTwoColumn += a[i][j];
                 }
                 System.out.print(a[i][j] + " ");

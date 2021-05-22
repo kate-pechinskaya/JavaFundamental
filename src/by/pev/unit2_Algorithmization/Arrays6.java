@@ -9,27 +9,25 @@ public class Arrays6 {
         int[] array = new int[n];
         int sum = 0;
         //заполнение массива
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 2; i < array.length; i++) {
             array[i] = i;
-            if (primeNumber(array[i]) == 1) {
+            if (isPrimeNumber(i)) {
                 System.out.print(array[i] + " ");
                 sum += array[i];
             }
         }
         System.out.println();
-        System.out.println(2 + sum);
+        System.out.println(sum);
     }
 
-    private static int primeNumber(int number) {
+    private static boolean isPrimeNumber(int number) {
+        boolean check = true;
         for (int i = 2; i < number; i++) {
-
             if (number % i == 0) {
-                return 0;
-            }
-            if ((i == number) || (i > Math.sqrt(number))) {
-                return 1;
+                check = false;
+                break;
             }
         }
-        return 0;
+        return check;
     }
 }

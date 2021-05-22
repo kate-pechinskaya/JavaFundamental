@@ -3,6 +3,14 @@ package by.pev.unit2_Algorithmization;
 public class ArraysOfArrays2 {
     /*2.	Дана квадратная матрица.
      Вывести на экран элементы, стоящие на диагонали. */
+
+    public static void main(String[] args) {
+        int[][] matrix = createMatrix();
+        printMatrix(matrix);
+        System.out.println();
+        printDiagonal(matrix);
+    }
+
     public static int[][] createMatrix() {
         int[][] matrix = new int[3][3];
         matrix[0][0] = 1;
@@ -38,9 +46,5 @@ public class ArraysOfArrays2 {
         return matrix;
     }
 
-    public static void main(String[] args) {
-        printMatrix(createMatrix());
-        System.out.println();
-        printDiagonal(createMatrix());
-    }
+
 }

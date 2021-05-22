@@ -20,16 +20,15 @@ public class Arrays4 {
                 maxNumber = array[i];
                 iMax = i;
             }
-
             if (array[i] < minNumber) {
                 minNumber = array[i];
                 iMin = i;
             }
-
         }
         //проверка 1
-        for (int i = 0; i < array.length; i++)
-            System.out.print(array[i] + " ");
+        for (int j : array) {
+            System.out.print(j + " ");
+        }
         System.out.println();
         System.out.println(iMax + "   " + iMin);
         System.out.println(maxNumber + "  " + minNumber);
@@ -37,8 +36,9 @@ public class Arrays4 {
         array[iMax] = minNumber;
         array[iMin] = maxNumber;
         // проверка 2
-        for (int i = 0; i < array.length; i++)
-            System.out.print(array[i] + " ");
+        for (int j : array) {
+            System.out.print(j + " ");
+        }
     }
 
 }
