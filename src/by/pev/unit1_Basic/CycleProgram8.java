@@ -7,8 +7,7 @@ import java.io.InputStreamReader;
 public class CycleProgram8 {
     /* 8. Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.*/
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) {
         int a = 45;
         int b = 56;
         int[] result = new int[10];
