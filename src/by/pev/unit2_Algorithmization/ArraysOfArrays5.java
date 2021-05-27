@@ -25,7 +25,7 @@ public class ArraysOfArrays5 {
                 if (i + j < matrix.length) {
                     if (i == n) {
                         matrix[i][j] = n + 1;
-                    }
+                     }
                 } else matrix[i][j] = 0;
             }
             n++;
