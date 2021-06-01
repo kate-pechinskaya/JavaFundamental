@@ -6,6 +6,10 @@ public class Object7 {
      Например, если было введено "abc cde def", то должно быть выведено "abcdef".
      */
     public static void main(String[] args) {
+        String old = "abc cde def";
+        String result = new StringBuilder(old).reverse().toString();
+
+        System.out.println(result);
 
     }
 }

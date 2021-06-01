@@ -7,6 +7,16 @@ public class Object8 {
     Случай, когда самых длинных слов может быть несколько, не обрабатывать.
      */
     public static void main(String[] args) {
+        System.out.println("Самое длинное слово: " + max("tell me abouttttt it"));
+    }
 
+    public static String max(String s) {
+        String[] words = s.split(" ");
+        String resstring = "";
+        for (String word : words) {
+            if (word.length() > resstring.length())
+                resstring = word;
+        }
+        return resstring;
     }
 }
