@@ -5,11 +5,13 @@ public class Object6 {
     6.	Из заданной строки получить новую, повторив каждый символ дважды.
      */
     public static void newString(String s, String prefix) {
+        StringBuilder prefixBuilder = new StringBuilder(prefix);
         while (!s.equals("")) {
             char c = s.charAt(0);
-            prefix += "" + c + c;
+            prefixBuilder.append(c).append(c);
             s = s.substring(1);
         }
+        prefix = prefixBuilder.toString();
         System.out.println(prefix + " ");
     }
 

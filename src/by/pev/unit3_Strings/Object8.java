@@ -12,11 +12,11 @@ public class Object8 {
 
     public static String max(String s) {
         String[] words = s.split(" ");
-        String resstring = "";
+        String result = "";
         for (String word : words) {
-            if (word.length() > resstring.length())
-                resstring = word;
+            if (word.length() > result.length())
+                result = word;
         }
-        return resstring;
+        return result;
     }
 }
