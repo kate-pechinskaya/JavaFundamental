@@ -10,4 +10,7 @@ public class SimpleClass9 {
         b)	список книг, выпущенных заданным издательством;
         c)	список книг, выпущенных после заданного года.
 */
+    public static void main(String[] args) {
+
+    }
 }
