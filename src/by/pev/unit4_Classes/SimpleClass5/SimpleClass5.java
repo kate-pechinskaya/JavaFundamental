@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass5;
 
 public class SimpleClass5 {
     /*5.	Опишите класс, реализующий десятичный счетчик, который может увеличивать или уменьшать свое значение

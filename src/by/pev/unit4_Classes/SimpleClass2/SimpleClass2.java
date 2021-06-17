@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass2;
 
 public class SimpleClass2 {
     /* 2.	Создайте класс Test2 двумя переменными. Добавьте конструктор с входными параметрами.

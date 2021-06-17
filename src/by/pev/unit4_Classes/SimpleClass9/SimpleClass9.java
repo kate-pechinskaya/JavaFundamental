@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass9;
 
 public class SimpleClass9 {
     /* 9.	Создать класс Book, спецификация которого приведена ниже. Определить конструкторы,

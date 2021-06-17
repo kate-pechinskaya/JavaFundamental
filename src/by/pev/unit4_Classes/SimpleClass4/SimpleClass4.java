@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass4;
 
 public class SimpleClass4 {
     /* 4.	Создайте класс Train, содержащий поля: название пункта назначения, номер поезда, время отправления.

@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass6;
 
 public class SimpleClass6 {
     /* 6.	Составьте описание класса для представления времени. Предусмотрите возможности установки времени

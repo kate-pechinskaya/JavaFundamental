@@ -1,10 +1,11 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass1;
 
-public class SimpleClass1 {
+public class main {
     /* 1.	Создайте класс Test1 двумя переменными. Добавьте метод вывода на экран и методы изменения этих переменных.
      Добавьте метод, который находит сумму значений этих переменных, и метод, который находит наибольшее значение из этих двух переменных.
      */
     public static void main(String[] args) {
+        Test1.print();
 
     }
 }

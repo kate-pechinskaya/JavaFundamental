@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass3;
 
 public class SimpleClass3 {
     /* 3.	Создайте класс с именем Student, содержащий поля: фамилия и инициалы, номер группы, успеваемость (массив

@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass8;
 
 public class SimpleClass8 {
     /*8.	Создать класс Customer, спецификация которого приведена ниже. Определить конструкторы, set-

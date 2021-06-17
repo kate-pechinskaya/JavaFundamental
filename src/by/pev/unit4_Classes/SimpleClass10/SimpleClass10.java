@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass10;
 
 public class SimpleClass10 {
     /*10.	Создать класс Airline, спецификация которого приведена ниже. Определить конструкторы,

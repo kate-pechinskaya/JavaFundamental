@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.Aggregation2;
 
 public class Aggregation2 {
     /*2.	Создать объект класса Автомобиль, используя классы Колесо, Двигатель.

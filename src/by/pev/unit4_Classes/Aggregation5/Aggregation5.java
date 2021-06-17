@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.Aggregation5;
 
 public class Aggregation5 {
     /* 5.	Туристические путевки. Сформировать набор предложений клиенту по выбору туристической путевки

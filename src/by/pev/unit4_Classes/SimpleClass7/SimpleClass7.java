@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.SimpleClass7;
 
 public class SimpleClass7 {
     /* 7.	Описать класс, представляющий треугольник. Предусмотреть методы

@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.Aggregation4;
 
 public class Aggregation4 {
     /* 4.	Счета. Клиент может иметь несколько счетов в банке. Учитывать возможность блокировки/разблокировки счета.

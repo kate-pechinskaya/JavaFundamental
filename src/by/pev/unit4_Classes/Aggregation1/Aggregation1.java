@@ -1,4 +1,4 @@
-package by.pev.unit4_Classes;
+package by.pev.unit4_Classes.Aggregation1;
 
 public class Aggregation1 {
     /* 1.	Создать объект класса Текст, используя классы Предложение, Слово.
