@@ -12,15 +12,7 @@ public class ArraysOfArrays2 {
     }
 
     public static int[][] createMatrix() {
-        int[][] matrix = new int[3][3];
-        matrix[0][0] = 1;
-        matrix[0][1] = -2;
-        matrix[0][2] = 3;
-        matrix[1][0] = 4;
-        matrix[1][1] = 1;
-        matrix[2][0] = 5;
-        matrix[2][1] = 0;
-        matrix[2][2] = 2;
+        int[][] matrix = new int[][]{{1,-2,3},{4,1,5},{5,0,2}};
         return matrix;
     }
 
