@@ -5,6 +5,6 @@ public class Main {
     Добавьте конструктор, инициализирующий члены класса по умолчанию. Добавьте set- и get- методы для полей экземпляра класса.
     */
     public static void main(String[] args) {
-
+    Test2 a = new Test2(2,3);
     }
 }
