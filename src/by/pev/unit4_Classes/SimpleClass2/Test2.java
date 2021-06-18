@@ -1,8 +1,8 @@
 package by.pev.unit4_Classes.SimpleClass2;
 
 public class Test2 {
-    private int a = 2;
-    private int b = 3;
+    private int a;
+    private int b;
 
     public Test2(int a, int b) {
         this.a = a;
