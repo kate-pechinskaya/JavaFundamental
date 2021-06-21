@@ -45,4 +45,11 @@ public class Student {
     public void setProgress(int[] progress) {
         this.progress = progress;
     }
+
+    public void StudentSelect(int[] progress, String initials, String secondName) {
+        for (int i = 0; i < progress.length; i++) {
+            if (progress[i] == 9 || progress[i] == 10)
+                System.out.println(initials + "  "+ secondName+ "  " + progress[i]);
+        }
+    }
 }
