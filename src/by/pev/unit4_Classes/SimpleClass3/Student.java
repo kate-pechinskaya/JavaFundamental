@@ -4,7 +4,7 @@ public class Student {
     private String secondName;
     private String initials;
     private int numberGroup;
-    private int[] progress = new int[5];
+    private int[] progress ;
 
 
     public Student(String secondName, String initials, int numberGroup, int[] progress) {
@@ -46,10 +46,10 @@ public class Student {
         this.progress = progress;
     }
 
-    public void StudentSelect(int[] progress, String initials, String secondName) {
+    public static void studentSelect(int[] progress, String initials, String secondName) {
         for (int i = 0; i < progress.length; i++) {
             if (progress[i] == 9 || progress[i] == 10)
-                System.out.println(initials + "  "+ secondName+ "  " + progress[i]);
+                System.out.println(initials + "  " + secondName + "  " + progress[i]);
         }
     }
 }

@@ -17,7 +17,8 @@ public class Main {
                 new Student("Захаров", "М.И.", 7021, new int[]{6, 6, 4, 7, 5}),
                 new Student("Попов", "А.К.", 7053, new int[]{7, 5, 7, 9, 4}),
                 new Student("Забыл", "В.У.", 7023, new int[]{5, 8, 6, 3, 7})};
-
+       // Student.studentSelect(Object group);
 
     }
+
 }
